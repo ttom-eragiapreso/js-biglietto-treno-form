@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+  <title>Biglietto Treno Form</title>
+
+</head>
+<body>
+  
+
+  <div class="container">
+
+    <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+    <div class="container-calcolo">
+
+      <div class="container-user-input">
+
+        <div class="input-container">
+        <label for="nomeCognome">Nome Cognome</label>
+        <input type="text" placeholder="Inserisci il tuo nome completo" value="" id="nomeCognome" required>
+      </div>
+
+      <div class="input-container">
+        <label for="km">Km da percorrere</label>
+        <input type="text" placeholder="Inserisci i kilometri" value="" id="km" required>
+      </div>
+
+      <div class="input-container">
+        <label for="fasciaEta">Fascia d'età</label>
+        <select name="" id="fasciaEta" required>
+          <option value="minorenne">Minorenne</option>
+          <option value="senior">Senior</option>
+          <option value="adulto">Adulto</option>
+        </select>
+      </div>
+
+    </div>
+      
+      
+      <button id="calcola">
+        Calcola
+      </button>
+      <button id="annulla">
+        Annulla
+      </button>
+
+    </div>
+
+    <!-- TICKET CALCOLATO -->
+
+    
+    <h2>IL TUO BIGLIETTO</h2>
+
+    <div class="yourticket-container">
+      <h3>DETTAGLIO PASSEGGERI</h3>
+
+      <div class="ticket">
+
+        <div class="passenger-name">
+          <h2>NOME PASSEGGERO</h2>
+          <p id="passengerName"></p>
+        </div>
+
+        <div class="details">
+
+          <div class="offer">
+            <h2>Offerta</h2>
+            <p>Biglietto Standard</p>
+          </div>
+
+          <div class="carrozza">
+            <h2>Carozza</h2>
+            <p>5</p>
+          </div>
+
+          <div class="cp-code">
+            <h2>Codice CP</h2>
+            <p>92911</p>
+          </div>
+
+          <div class="ticket-price">
+            <h2>Costo Biglietto</h2>
+            <p id="ticketPrice"></p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+</html>

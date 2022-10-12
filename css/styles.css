@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b91450;
+}
+
+label {
+  color: #b91450;
+}
+
+.container {
+  width: 70%;
+  text-align: center;
+}
+
+.container h2 {
+  color: white;
+}
+
+input, select {
+  display: block;
+  border: 1px solid #b91450;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.container-calcolo {
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px 0;
+}
+
+.container-user-input {
+  display: flex;
+  justify-content: center;
+}
+.input-container {
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  color: #b91450;
+}
+
+/* TICKET */
+
+.ticket, .details {
+  display: flex;
+}
+
+.yourticket-container {
+  background-color: white;
+  color: black;
+  padding: 45px;
+}
+
+.yourticket-container h3 {
+  text-align: left;
+}
+
+.passenger-name {
+  background-color: #808080;
+  padding: 15px;
+}
+
+.passenger-name h2:first-child {
+  color: black;
+}
+
+.details {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.ticket .details h2 {
+  color: black;
+  margin-bottom: 35px;
+} 
+
+.details div {
+  padding: 25px;
+}
