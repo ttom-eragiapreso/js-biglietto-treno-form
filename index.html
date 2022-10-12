@@ -18,25 +18,28 @@
     <div class="container-calcolo">
 
       <div class="container-user-input">
+    
 
-        <div class="input-container">
+      <div class="input-container">
         <label for="nomeCognome">Nome Cognome</label>
-        <input type="text" placeholder="Inserisci il tuo nome completo" value="" id="nomeCognome" required>
+        <input type="text" placeholder="Inserisci il tuo nome completo" id="nomeCognome">
       </div>
 
       <div class="input-container">
         <label for="km">Km da percorrere</label>
-        <input type="text" placeholder="Inserisci i kilometri" value="" id="km" required>
+        <input type="number" placeholder="Inserisci i kilometri" id="km">
       </div>
 
       <div class="input-container">
         <label for="fasciaEta">Fascia d'età</label>
-        <select name="" id="fasciaEta" required>
-          <option value="minorenne">Minorenne</option>
-          <option value="senior">Senior</option>
-          <option value="adulto">Adulto</option>
+        <select name="fasciaEta" id="fasciaEta">
+          <option value="Minorenne">Minorenne</option>
+          <option value="Senior">Senior</option>
+          <option value="Adulto">Adulto</option>
         </select>
       </div>
+        
+        
 
     </div>
       
@@ -52,7 +55,7 @@
 
     <!-- TICKET CALCOLATO -->
 
-    
+
     <h2>IL TUO BIGLIETTO</h2>
 
     <div class="yourticket-container">
@@ -69,7 +72,7 @@
 
           <div class="offer">
             <h2>Offerta</h2>
-            <p>Biglietto Standard</p>
+            <p id="ticketType">Biglietto </p>
           </div>
 
           <div class="carrozza">
